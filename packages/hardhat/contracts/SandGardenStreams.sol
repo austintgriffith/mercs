@@ -9,6 +9,9 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 // |___/   \___|   TS__[O]  |___/   |_|_|  |_|\_|   |___/   TS__[O]  \___|   |_|_|   |_|_\   |___/   |___|  |_|\_|
 // _|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
 // "`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+//
+// BuidlGuidl Mercs
+
 
 contract SandGardenStreams is Ownable {
 
@@ -23,7 +26,9 @@ contract SandGardenStreams is Ownable {
     event AddBuilder(address indexed to, uint256 amount);
     event UpdateBuilder(address indexed to, uint256 amount);
 
-    constructor() { }
+    constructor() { 
+        _transferOwnership(0x34aA3F359A9D614239015126635CE7732c18fDF3);
+    }
 
     struct BuilderData {
         address builderAddress;

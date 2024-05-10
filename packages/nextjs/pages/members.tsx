@@ -49,10 +49,7 @@ const Members: NextPage = () => {
       <div className="max-w-3xl px-4 py-8">
         <h1 className="text-4xl font-bold mb-8 text-primary-content bg-primary inline-block p-2">Members</h1>
         <div className="mb-16">
-          <p className="mt-0 mb-10">
-            These are the BG Sand Garden active builders and their streams. You can click on any builder to see their
-            detailed contributions.
-          </p>
+          <p className="mt-0 mb-10"></p>
           {isLoadingBuilderData || isLoadingBuilderEvents ? (
             <div className="m-10">
               <div className="text-5xl animate-bounce mb-2">👾</div>

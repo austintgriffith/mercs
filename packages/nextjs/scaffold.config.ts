@@ -29,11 +29,8 @@ const scaffoldConfig = {
   walletConnectProjectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "3a8170812b534d0ff9d794f19a901d64",
 
   contracts: {
-    _SandGardenStreamsOld: {
-      fromBlock: 101114639,
-    },
     SandGardenStreams: {
-      fromBlock: 113132153,
+      fromBlock: 1,
     },
   },
 } satisfies ScaffoldConfig;

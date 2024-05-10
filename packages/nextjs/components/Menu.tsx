@@ -1,16 +1,17 @@
 import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+
+//import Link from "next/link";
+//import { useRouter } from "next/router";
 
 /**
  * Site Menu
  */
 export const Menu = () => {
-  const { asPath } = useRouter();
+  //const { asPath } = useRouter();
   return (
     <div>
-      <ul className="px-4 flex gap-4">
-        <li>
+      {/*<ul className="px-4 flex gap-4">
+         <li>
           <Link href="/" className={`${asPath === "/" ? "" : "link"} link-primary underline-offset-2`}>
             Home
           </Link>
@@ -28,9 +29,9 @@ export const Menu = () => {
         <li>
           <Link href="/faq" className={`${asPath === "/faq" ? "" : "link"} link-primary underline-offset-2`}>
             F.A.Q.
-          </Link>
+          </Link> 
         </li>
-      </ul>
+      </ul>*/}
     </div>
   );
 };
